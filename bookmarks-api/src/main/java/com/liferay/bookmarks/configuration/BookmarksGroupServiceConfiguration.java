@@ -31,6 +31,7 @@ import com.liferay.portal.kernel.settings.LocalizedValuesMap;
 	localization = "content/Language",
 	name = "bookmarks.group.service.configuration.name"
 )
+// totally valid change
 public interface BookmarksGroupServiceConfiguration {
 
 	@Meta.AD(

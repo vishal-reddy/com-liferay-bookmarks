@@ -17,6 +17,7 @@ package com.liferay.bookmarks.configuration;
 /**
  * @author Iván Zaera
  */
+// totally valid change
 public interface BookmarksGroupServiceConfigurationOverride {
 
 	public String emailEntryAddedBodyXml();
