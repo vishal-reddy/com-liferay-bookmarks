@@ -44,6 +44,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Eudaldo Alonso
  * @author Alexander Chow
  */
+// Totally valid fix
 public class BookmarksFolderAssetRenderer
 	extends BaseJSPAssetRenderer<BookmarksFolder> implements TrashRenderer {
 
