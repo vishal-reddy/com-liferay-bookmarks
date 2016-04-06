@@ -22,6 +22,7 @@ import com.liferay.portal.kernel.settings.LocalizedValuesMap;
 /**
  * @author Adolfo Pérez
  */
+// Comment made here in main module tag
 @ExtendedObjectClassDefinition(
 	category = "collaboration",
 	scope = ExtendedObjectClassDefinition.Scope.GROUP

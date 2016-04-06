@@ -43,6 +43,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Juan Fernández
  * @author Sergio González
  */
+// Comment made here in wrong module tag
 public class BookmarksEntryAssetRenderer
 	extends BaseJSPAssetRenderer<BookmarksEntry> implements TrashRenderer {
 
