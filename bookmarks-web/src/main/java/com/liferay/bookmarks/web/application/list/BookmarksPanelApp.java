@@ -34,6 +34,7 @@ import org.osgi.service.component.annotations.Reference;
 	},
 	service = PanelApp.class
 )
+// bad change
 public class BookmarksPanelApp extends BasePanelApp {
 
 	@Override
