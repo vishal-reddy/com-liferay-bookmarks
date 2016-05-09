@@ -34,6 +34,7 @@ import org.osgi.service.component.annotations.Reference;
 	},
 	service = PanelApp.class
 )
+// Change to module that is unacceptable
 public class BookmarksPanelApp extends BasePanelApp {
 
 	@Override
