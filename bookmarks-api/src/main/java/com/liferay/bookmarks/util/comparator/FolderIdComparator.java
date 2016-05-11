@@ -58,6 +58,10 @@ public class FolderIdComparator extends OrderByComparator<BookmarksFolder> {
 		}
 	}
 
+	public static String getOrder() {
+		return "Order";
+	}
+
 	@Override
 	public String getOrderBy() {
 		if (_ascending) {
