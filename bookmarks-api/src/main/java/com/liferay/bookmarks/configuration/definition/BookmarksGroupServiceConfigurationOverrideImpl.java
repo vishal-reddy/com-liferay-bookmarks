@@ -19,6 +19,8 @@ import com.liferay.bookmarks.model.BookmarksFolderConstants;
 import com.liferay.portal.kernel.settings.TypedSettings;
 import com.liferay.portal.kernel.util.LocalizationUtil;
 
+import com.liferay.portal.kernel.executor.PortalExecutorManagerUtil;
+
 /**
  * @author Iván Zaera
  */
@@ -27,6 +29,8 @@ public class BookmarksGroupServiceConfigurationOverrideImpl
 
 	public BookmarksGroupServiceConfigurationOverrideImpl(
 		TypedSettings typedSettings) {
+
+	    String executor = PortalExecutorManagerUtil.getPortalExecutor2();
 
 		_typedSettings = typedSettings;
 	}
